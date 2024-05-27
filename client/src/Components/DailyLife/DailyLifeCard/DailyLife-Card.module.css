@@ -1,0 +1,151 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 3vw;
+    padding: 6% 3% 0 3%;
+    background-color: var(--color-secondary);
+    border-radius: .3rem;
+    width: 100%;
+}
+
+.iconImage {
+    height: 17vw;
+    margin-bottom: 4%;
+}
+
+.toggleBtn,
+.toggleBtn2 {
+    /* width: 90%; */
+    margin: 0 0 5vw 0;
+    border: 0;
+    border-radius: .4rem;
+
+    background-color: white;
+
+    color: black;
+    font-size: 4.2vw;
+    padding: 3vw;
+}
+
+.toggleBtn2 {
+    margin: 1vw 0;
+    padding: 2vw;
+}
+
+.toggleBtn:hover,
+.toggleBtn2:hover {
+    background-color: #ebebeb;
+    color: black;
+}
+
+.title {
+    color: white;
+    font-family: var(--font-style-primary);
+    font-size: 5.2vw;
+    letter-spacing: .1vw;
+    text-align: center;
+}
+
+.article {
+    margin: 0 0 13px 0;
+    color: white;
+    font-size: 4vw;
+    line-height: 4.5vw;
+    text-align: center;
+    font-style: italic;
+}
+
+
+@media screen and (min-width:728px) {
+    /* .cardContainer {
+        padding: 3% 2% 3% 2%;
+        margin-bottom: 4vw;
+        align-items: center;
+    } */
+
+
+    .iconImage {
+        height: 9vw;
+    }
+
+    .title {
+        font-size: 2vw;
+        letter-spacing: normal;
+    }
+
+    .article {
+        font-size: 1.5vw;
+        line-height: 1.8vw;
+    }
+
+    .cardContainer {
+        border-radius: 0;
+        flex-direction: row;
+        padding: 2% 2% 2% 12%;
+        margin: 0 0 .5rem 0;
+    }
+
+    .divContentWrapper {
+        width: 70vw;
+        text-align: center;
+        padding: 0 0 0 9vw;
+    }
+
+    .divContentWrapper h4 {
+        text-align: left;
+    }
+
+    .divContentWrapper p {
+        text-align: left;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .cardContainer {
+        padding: 3% 9%;
+    }
+}
+
+@media screen and (min-width:1600px) {
+
+    /* .iconImage {
+        height: calc(1600px * 0.09);
+    }
+
+    .title {
+        font-size: calc(1600px * 0.02);
+        letter-spacing: normal;
+    }
+
+    .article {
+        font-size: calc(1600px * 0.012);
+    } */
+
+    .iconImage {
+        height: 189px;
+    }
+
+    .title {
+        font-size: 42px;
+    }
+
+    .article {
+        font-size: 25.5px;
+        line-height: 26px;
+    }
+
+    .cardContainer {
+        padding: 32px;
+        margin: 13px 13px 7px 13px;
+    }
+
+    .divContentWrapper {
+        padding: 0 0 0 79px;
+        width: 1390px;
+    }
+}

@@ -1,0 +1,446 @@
+.name,
+.phone,
+.email,
+.message,
+.firstName,
+.lastName,
+.position,
+.resume,
+.reason,
+.nameContact,
+.phoneContact,
+.emailContact,
+.messageContact {
+    background-color: var(--color-secondary);
+    margin-top: 2vw;
+    padding: 2.5vw 0 2.5vw 2vw;
+    font-size: 4vw;
+}
+
+
+.email::placeholder,
+.name::placeholder,
+.message::placeholder,
+.phone::placeholder,
+.name::placeholder,
+.lastName::placeholder,
+.firstName::placeholder,
+.position::placeholder,
+.resume::placeholder,
+.reason::placeholder,
+.desktopResume::placeholder {
+    color: white;
+}
+
+.emailContact::placeholder,
+.nameContact::placeholder,
+.phoneContact::placeholder,
+.messageContact::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+
+.formStyle,
+.desktopFormStyle,
+.formStyleHire {
+    position: relative;
+    z-index: 6;
+    padding: 0 6vw 8vw 6vw;
+    background-color: white;
+    background: rgba(255, 255, 255, 0.9);
+    width: 90%;
+    border-radius: 0;
+    margin: 0 auto;
+}
+
+.linkStyle {
+    color: #6e737d;
+    text-decoration: none;
+    font-size: 4.2vw;
+}
+
+.linkStyle:hover {
+    color: var(--color-primary);
+}
+
+.contactWrapper {
+    text-align: center;
+    font-size: 4.2vw;
+}
+
+.hiring {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/mobile/for-hire/background.jpg");
+    background-size: cover;
+    padding: 5vw 0 5vw 0;
+}
+
+.desktopHiring {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/desktop/for-hire/background.jpg");
+    background-size: cover;
+    padding: 5vw 0 5vw 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/mobile/contact/background.jpg");
+    background-size: cover;
+    padding: 5vw 0 5vw 0;
+}
+
+.contactTitle,
+.contactTitleHire {
+    text-align: center;
+    font-size: 4.4vw;
+    margin: 7vw 0 5.8vw 0;
+    color: var(--font-color-secondary-light);
+    font-weight: 500;
+    line-height: 6.5vw;
+}
+
+.contactTitle2,
+.contactTitle2Hire {
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 500;
+    margin: -8.5vw 0 2vw 0;
+    color: var(--font-color-primary)
+}
+
+.checkForm {
+    text-align: center;
+    font-size: 3.3vw;
+    color: white;
+    text-shadow: 0px 0px 7px #02020254;
+}
+
+.btn,
+.btnContact,
+.btnContactDisabled {
+    background-color: var(--color-primary) !important;
+    color: white;
+    width: 100%;
+    margin-top: 6vw;
+    padding: 4vw 0 4vw 0;
+    font-size: 4vw;
+    border: none;
+}
+
+.btnContactDisabled {
+    background-color: #cbcbcb !important;
+}
+
+.btn:hover,
+.btnContact:hover {
+    background-color: #215858 !important;
+    transition: 0.2s !important;
+    color: white;
+}
+
+.btnContainer {
+    text-align: center;
+}
+
+.hiringDivider {
+    position: relative;
+    z-index: 2;
+    background-color: #2B5E86;
+    width: 100%;
+    height: 22vw;
+    overflow: auto;
+    margin-top: -17vw;
+}
+
+.contactDivider {
+    position: relative;
+    z-index: 2;
+    background-color: #2B5E86;
+    width: 100%;
+    height: 2.5vw;
+    overflow: auto;
+}
+
+@media screen and (min-width:568px) {
+
+    .contactTitle2,
+    .contactTitle2Hire {
+        font-size: 7vw;
+    }
+
+    .name,
+    .nameContact,
+    .phone,
+    .phoneContact,
+    .email,
+    .emailContact,
+    .message,
+    .messageContact,
+    .firstName,
+    .lastName,
+    .position,
+    .resume,
+    .reason {
+        padding: 1.5vw 0 1.5vw 2vw;
+        font-size: 3vw;
+    }
+
+    .btn,
+    .btnContact {
+        padding: 3vw 0 3vw 0;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .checkForm {
+        font-size: 2.5vw;
+    }
+}
+
+
+@media screen and (min-width:728px) {
+    .contactWrapper {
+        font-size: 3.2vw;
+        margin-bottom: .5rem;
+        color: #e7f4ff;
+    }
+
+    .linkStyle {
+        color: white;
+        font-size: 3.2vw;
+    }
+
+    .linkStyle:hover {
+        color: rgb(71, 71, 71);
+        font-size: 3.1vw;
+    }
+
+    .formStyleHire {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.7802579650024072) 41%, rgba(255, 255, 255, 0.7130310742461047) 49%, rgba(255, 255, 255, 0.78) 57%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    .formStyle {
+        background-color: var(--color-secondary-lighter-opacity);
+        border-radius: .8rem;
+    }
+
+    .desktopHiring {
+        background-size: contain;
+        padding: 2vw 0;
+    }
+
+    .contact {
+        background-image: url("../../assets/desktop/contact/background.jpg");
+        background-size: cover;
+    }
+
+    .contactTitle,
+    .contactTitleHire {
+        color: white;
+        margin: 3vw 0 -1.5vw 0;
+        font-size: 4vw;
+    }
+
+    .contactTitle {
+        margin: 3vw 0 1.5vw 0;
+    }
+
+    .contactTitleHire {
+        color: var(--font-color-secondary-light);
+    }
+
+    .contactTitle2,
+    .contactTitle2Hire {
+        color: white;
+        font-size: 4vw;
+        margin: -0.5vw 0 .5vw 0;
+    }
+
+    .contactTitle2Hire {
+        color: var(--font-color-primary)
+    }
+
+    .formStyle {
+        padding: 0 2vw 2.5vw 2vw;
+    }
+
+    .formStyleHire {
+        width: 96.5%;
+        padding: 15px
+    }
+
+    .name,
+    .nameContact,
+    .phone,
+    .phoneContact,
+    .email,
+    .emailContact,
+    .message,
+    .messageContact,
+    .firstName,
+    .lastName,
+    .position,
+    .resume,
+    .reason {
+        padding: 1.5vw 0 1.5vw 1.5vw;
+        font-size: 1.4vw;
+        margin: 0 0 4px 0;
+    }
+
+    .emailContact::placeholder,
+    .nameContact::placeholder,
+    .phoneContact::placeholder,
+    .messageContact::placeholder {
+        color: black;
+    }
+
+    .nameContact,
+    .phoneContact,
+    .emailContact,
+    .messageContact {
+        background-color: white;
+    }
+
+    .resume {
+        background-color: var(--color-primary)
+    }
+
+    .checkForm {
+        font-size: 1.8vw;
+        color: white;
+    }
+
+    .btn,
+    .btnContact,
+    .btnContactDisabled {
+        width: 30vw;
+        margin-top: 2vw;
+        padding: 1.5vw 0 1.5vw 0;
+        font-size: 1.2vw;
+    }
+
+    .btnContact {
+        background-color: var(--color-secondary) !important;
+    }
+
+    .btnContainer {
+        text-align: left;
+    }
+
+    .hiringDivider {
+        background: linear-gradient(90deg, rgba(71, 80, 95, 1) 0%, rgba(89, 109, 139, 1) 46%, rgba(71, 80, 95, 1) 100%, rgba(9, 9, 121, 0) 100%, rgba(0, 212, 255, 1) 100%);
+        height: 10vw;
+        margin-top: -10vw;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .contactWrapper,
+    .linkStyle {
+        font-size: 30px;
+    }
+
+    .linkStyle:hover {
+        font-size: 29px;
+    }
+
+    ;
+
+    .contactTitle {
+        margin: 3vw 0 0.5vw 0;
+    }
+
+    .btn,
+    .btnContact,
+    .btnContactDisabled {
+        width: 180px;
+        margin-top: 32px;
+        padding: 14px 0;
+        font-size: 15.2px;
+    }
+
+    .name,
+    .nameContact,
+    .phone,
+    .phoneContact,
+    .email,
+    .emailContact,
+    .message,
+    .messageContact,
+    .firstName,
+    .lastName,
+    .position,
+    .resume,
+    .reason {
+        padding: 10px;
+        padding-right: 0;
+        font-size: 15.2px;
+    }
+
+
+    .checkForm {
+        font-size: 1.4vw;
+    }
+
+    .contactTitle {
+        margin-block-end: 40px;
+        margin-block-start: 48px;
+        margin-bottom: 40px;
+        margin-top: 48px;
+        line-height: 88px;
+    }
+
+    .contactTitle2 {
+        margin-bottom: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -72px;
+    }
+
+    .contactTitleHire {
+        margin: 3px 0 -28.5px 0;
+        /* font-size: 56px; */
+        line-height: 70px;
+    }
+
+    .contactTitle2Hire {
+        margin: 4px 0 24.5px 0;
+        font-size: 51px;
+        line-height: 70px;
+    }
+
+    .contactTitle {
+        margin: 23px 0 12.5px 0;
+    }
+}
+
+@media screen and (min-width:1600px) {
+
+    .checkForm {
+        font-size: 22.4px;
+    }
+
+    .contactTitleHire {
+        margin: 14px 0 -46.5px 0;
+    }
+
+    .contactTitle2Hire {
+        margin: 74px 0 54.5px 0;
+        line-height: 0;
+    }
+
+    .contactTitleHire,
+    .contactTitle2Hire,
+    .contactTitle,
+    .contactTitle2 {
+        font-size: 64px;
+
+    }
+
+}

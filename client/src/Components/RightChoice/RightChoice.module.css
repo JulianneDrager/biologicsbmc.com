@@ -1,0 +1,247 @@
+font-face {
+    @font-face: "Neuropol";
+    src: url("../../Fonts/neuropol\ x\ rg.otf") format("truetype");
+}
+
+.logoDiv h3 {
+    font-size: 8vw;
+    line-height: 6.8vw;
+    color: var(--font-color-primary);
+    font-family: var(--font-style-primary);
+}
+
+.introContainer {
+    width: 90%;
+    margin: 15px 0 0 0;
+
+    background-color: #ffffffed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.introContainer h4 {
+    color: var(--color-secondary);
+    font-size: 4vw;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 1rem 0 -.5rem 0;
+}
+
+.titleContainer {
+    margin: 1rem 0 0 0;
+    width: 100%;
+}
+
+.contentContainer {
+    width: 100%;
+    padding-bottom: 10vw;
+
+    background-image: url("../../assets/mobile/right-choice/background.jpg");
+    background-size: contain;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleContainer>h3 {
+    font-size: 5vw;
+    margin: .5rem 0 0 0;
+    color: var(--font-color-secondary-light);
+    font-family: var(--font-style-primary);
+    font-weight: 500;
+}
+
+.introContainer>p {
+    margin: 2vw 5.5vw;
+
+    text-align: center;
+    font-size: 4vw;
+    font-style: italic;
+    line-height: 5.5vw;
+}
+
+.iconsContainer {
+    width: 100%;
+    padding: 3vw 5vw;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    row-gap: 4vw;
+}
+
+.widthStyle {
+    width: 17vw;
+}
+
+.title {
+    font-family: var(--font-style-secondary);
+    font-size: 2.55vw;
+}
+
+.mainContainer {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titleContainer>* {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+@media screen and (min-width:375px) {
+    .introContainer p {
+        margin: 2vw 6vw;
+    }
+}
+
+@media screen and (min-width:600px) {
+
+    .introContainer p {
+        margin: 2vw 6.5vw;
+    }
+}
+
+@media screen and (min-width:728px) {
+
+    .mainContainer {
+        width: 100%;
+        /* aspect-ratio: 15 / 10; */
+        align-items: start;
+        display: block;
+    }
+
+    .contentContainer {
+        width: 100%;
+        padding-bottom: 0%;
+        background-image: url("../../assets/desktop/right-choice/background.jpg");
+        background-size: cover;
+    }
+
+    .logoDiv h3 {
+        font-size: 4.5vw;
+        line-height: 2.8vw;
+        margin: 0 0 25px 0;
+    }
+
+    .titleContainer {
+        background: none;
+        position: static;
+    }
+
+    .title {
+        font-size: 1.11vw;
+    }
+
+    .widthStyle {
+        width: 6vw;
+    }
+
+    .iconsContainer {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding: 6px 42px;
+    }
+
+    .introContainer {
+        display: block;
+        width: 96%;
+        background-color: #ffffff61;
+    }
+
+    .introContainer h4 {
+        font-size: 2vw;
+    }
+
+    .introContainer p {
+        font-size: 1.4vw;
+        line-height: 2vw;
+        margin: 27px 0;
+    }
+
+    .divider {
+        padding: .4rem;
+        background: rgb(71, 80, 95);
+        background: linear-gradient(90deg, rgba(71, 80, 95, 1) 0%, rgba(89, 109, 139, 1) 46%, rgba(71, 80, 95, 1) 100%, rgba(9, 9, 121, 0) 100%, rgba(0, 212, 255, 1) 100%);
+        width: 100%;
+        height: 1px;
+    }
+
+    .reviewsContainer {
+        width: 100%;
+        padding: 16px 51px;
+        text-align: left;
+        background-color: var(--font-color-secondary-light-opacity);
+        color: white;
+        font-size: 1.3vw;
+        line-height: 1.8vw;
+        margin: .3rem 0 2.5rem 0;
+    }
+
+    .reviewsContainer>h4 {
+        font-size: 1.5vw;
+        line-height: 19.75px;
+        color: white;
+        text-align: left;
+        margin: 0;
+    }
+
+    .reviewsContainer>p {
+        font-size: 1.3vw;
+        line-height: 1.75vw;
+    }
+
+}
+
+@media screen and (min-width: 1700px) {
+
+    .titleContainer h3 {
+        font-size: 85px;
+    }
+
+    .title {
+        font-size: 15.11px;
+    }
+
+    .widthStyle {
+        width: 106px;
+    }
+
+    .logoDiv h3 {
+        font-size: 78.5px;
+    }
+
+    .introContainer p {
+        font-size: 22.4px;
+        line-height: 28.8px;
+    }
+
+    .introContainer h4 {
+        font-size: 34px;
+    }
+
+    .reviewsContainer {
+        font-size: 22.3px;
+        line-height: 30.8px;
+    }
+
+    .reviewsContainer h4 {
+        font-size: 24.3px;
+        line-height: 25px;
+    }
+
+    .reviewsContainer p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}

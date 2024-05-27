@@ -1,0 +1,23 @@
+@media screen and (min-width:600px) {
+    .mainStyle {
+        height: 120vh;
+    }
+}
+
+@media screen and (min-width:665px) {
+    .mainStyle {
+        height: 250vh;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .mainStyle {
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .mainStyle {
+        height: 78.5vh;
+    }
+}

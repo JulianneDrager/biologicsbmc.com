@@ -1,0 +1,26 @@
+/* .navbar-toggler-icon {
+    filter: invert(1);
+} */
+
+.accordion-item {
+    background-color: transparent;
+    border: none;
+}
+
+.accordion {
+    --bs-accordion-active-bg: transparent
+}
+
+.accordion-button:not(.collapsed) {
+    padding: 0;
+}
+
+/* .input-group>.form-control, .input-group>.form-floating, .input-group>.form-select {
+    margin: 2px;
+} */
+
+@media screen and (min-width:992px) {
+    .navbar {
+        --bs-navbar-nav-link-padding-x: 0.42rem !important;
+    }
+}

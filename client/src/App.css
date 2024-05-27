@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap');
+
+
+:root {
+  --border-test: green dashed 2px;
+
+  --color-primary: #449696;
+  --color-secondary: #5A6F8E;
+  --color-tertiary: #C4C0C0;
+  --color-secondary-lighter-opacity: #5a6f8eb8;
+
+  --font-color-primary: #FF3C03;
+  --font-color-secondary: #5A6F8E;
+  --font-color-secondary-light: #5a6f8e8a;
+  --font-color-secondary-light-opacity: #5a6f8ed6;
+  --font-color-light-secondary: #c4c0c0;
+  --font-color-tertiary: #C4C0C0;
+
+  --font-style-logo: "Neuropol";
+  --font-style-primary: "Questrial";
+  --font-style-secondary: "Montserrat"
+}
+
+* {
+  font-family: var(--font-style-secondary);
+}
