@@ -9,6 +9,7 @@ import HiringForm from "../Hiring/HiringForm";
 import Footer from "Components/Footer/Footer";
 import Contact from "Components/Contact/Contact";
 import Director from "Components/Director/Director";
+import RxNexus from "Components/RxNexus/RxNexus";
 
 const Screen = () => {
   return (
@@ -27,6 +28,7 @@ const Screen = () => {
         <RightChoice />
         <About />
         <Director />
+        <RxNexus />
         <Training />
         <DailyLife />
         <HiringForm />
